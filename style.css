@@ -1,0 +1,68 @@
+head{
+.text-rendering: h4;	
+
+}
+
+body{
+	background: #eee5e9;
+	margin: 0;
+	padding:0;
+	display.flex: ;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #031321;
+}
+a
+{position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0,2s;
+}
+a:hover
+{
+	color: teal;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+	transition-delay: 0,5s;
+
+}
+.grid{
+	margin: 80px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+.grid>article{
+	background: #eee5e9;
+	
+	box-shadow: 2px 2px 96px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	text-align: center;
+	width: 250px;
+	transition: transform.2s;
+}
+.grid>article:hover{
+	transform: translate(10px);
+	box-shadow: 5px 5px 26px 0px rgba(1, 1, 1, 0.3);
+}
+.grid>article img{
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.text{
+	padding:0 20px 20px;
+}.text h3{
+	text-transform:uppercase ;//permette il colore del buttom//
+}
+.text button{
+	background:#ef6f6c; //colore dentro button//
+    
+}
